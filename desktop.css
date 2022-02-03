@@ -1,5 +1,7 @@
 @media screen and (max-width: 1920px) {
-   
+    body{
+        overflow-x: hidden;
+    }
     main{
         margin: 60px 160px;
     }
@@ -26,6 +28,9 @@
 }
 
 @media screen and (max-width: 1320px) {
+    body{
+        overflow-x: hidden;
+    }
 
     #hibox > article > h1{font-size: 80px;}
 
@@ -58,6 +63,9 @@
 }
 
 @media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
 
     main{
         width: 90vw;
@@ -73,7 +81,7 @@
         text-align: center;
         justify-content: center;
     }
-    .bangab{top: 180px; left: 27%; display: table-cell;}
+    .bangab{top: 180px; left: 30%; display: table-cell;}
     .webjiintake{
         margin: auto;
         font-size: 16px;
@@ -116,6 +124,9 @@
 
 
 @media screen and (min-width: 360px) {
+    body{
+        overflow-x: hidden;
+    }
 
         main{
             width: 90vw;
