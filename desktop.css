@@ -28,7 +28,8 @@
 }
 
 @media screen and (max-width: 1700px) {
-    body{
+
+        body{
         overflow-x: hidden;
     }
 
@@ -54,9 +55,18 @@
         left: 60px;
         font-size: 16px;
     }
+    #dobblebox > .hafe-box > .white{
+        position: relative; 
+        display: table; 
+        vertical-align: middle; 
+        justify-content: center;
+        text-align: center;
+    }
     #dobblebox > .hafe-box > .white p{
-        left: -100px;
+        display: table-cell;
+        /* position: absolute; */
         font-size: 16px;
+        left: 76%;
     }
 
 
