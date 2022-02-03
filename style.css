@@ -61,6 +61,7 @@ section > article >p{display: inline;}
 /* 두번째 섹션 완료 */
 /* 세번째 섹션 시작 */
 
+
 #dobblebox > .hafe-box{position: relative;}
 
 #dobblebox > .hafe-box > .black{
@@ -68,21 +69,91 @@ section > article >p{display: inline;}
     background-color: #151515;
     height: 19vh;
     width: 50%;
+    display: table;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
 }
 
-#dobblebox > .hafe-box > .black p{position: absolute; top: 45%; left: 250px; font-size: 28px; font-weight: 700; color: white;}
+#dobblebox > .hafe-box > .black p{
+    display: table-cell; 
+    font-size: 28px; 
+    font-weight: 700; 
+    color: white;
+    vertical-align: middle;
+    justify-content: center;
+}
 
 
 #dobblebox > .hafe-box > .white{
     position: absolute;
     top: 0;
-    right: 0;
+    right: -80px;
     height: 19vh;
     width: 50%;
+    display: table;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
 }
 
 
-#dobblebox > .hafe-box > .white P{position: absolute; top: 45%; right: 200px; font-size: 28px; font-weight: 700; color: black;}
+#dobblebox > .hafe-box > .white P{
+    position: relative;
+    right: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 28px; 
+    font-weight: 700; 
+    color: black;
+}
+#dobblebox > .hafe-box{position: relative;}
+
+#dobblebox > .hafe-box > .black{
+    position: absolute;
+    background-color: #151515;
+    height: 19vh;
+    width: 50%;
+    display: table;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+}
+
+#dobblebox > .hafe-box > .black p{
+    display: table-cell; 
+    font-size: 28px; 
+    font-weight: 700; 
+    color: white;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+
+#dobblebox > .hafe-box > .white{
+    position: absolute;
+    top: 0;
+    right: -80px;
+    height: 19vh;
+    width: 50%;
+    display: table;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#dobblebox > .hafe-box > .white P{
+    position: relative;
+    right: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 28px; 
+    font-weight: 700; 
+    color: black;
+}
 
 /* 세번째 섹션 끝 */
 /* 네번째 섹션 시작 */
