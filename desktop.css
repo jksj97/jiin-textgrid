@@ -1,0 +1,233 @@
+@media screen and (max-width: 1920px) {
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        margin: 60px 160px;
+    }
+
+    .webjiintake{
+        font-size: 26px;
+        top: 500px;
+        left: 30px;
+    }
+
+    #basicbox article .basictake{
+        font-size: 20px;
+    }
+
+    #dobblebox > .hafe-box > .black p{
+        left: 125px;
+        font-size: 20px;
+    }
+    #dobblebox > .hafe-box > .white p{
+        width: 100%;
+        left: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    #hibox > article > h1{font-size: 80px;}
+
+    .bangab{top: 246px;}
+
+    .webjiintake{
+        font-size: 20px; 
+        top: 400px; 
+        left: 30px;
+    }
+
+    main{
+        margin: 60px 100px;
+    }
+
+    #basicbox article .basictake{
+        font-size: 16px;
+    }
+
+    #dobblebox > .hafe-box > .black p{
+        left: 60px;
+        font-size: 16px;
+    }
+    #dobblebox > .hafe-box > .white{
+        position: relative; 
+        display: table; 
+        vertical-align: middle; 
+        justify-content: center;
+        text-align: center;
+    }
+    #dobblebox > .hafe-box > .white p{
+        display: table-cell;
+        /* position: absolute; */
+        font-size: 16px;
+        left: 76%;
+    }
+
+
+}
+
+@media screen and (max-width: 1320px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    #hibox > article > h1{font-size: 80px;}
+
+    .bangab{top: 246px;}
+
+    .webjiintake{
+        font-size: 20px; 
+        top: 400px; 
+        left: 30px;
+    }
+
+    main{
+        margin: 60px 100px;
+    }
+
+    #basicbox article .basictake{
+        font-size: 16px;
+    }
+
+    #dobblebox > .hafe-box > .black p{
+        left: 60px;
+        font-size: 16px;
+    }
+    #dobblebox > .hafe-box > .white p{
+        left: 30px;
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    main{
+        width: 90vw;
+        height: 100vh;
+        margin: auto 12px;
+    }
+
+    #hibox{
+        position: relative;
+        display: table;
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 1;
+        text-align: center;
+        justify-content: center;
+    }
+    .bangab{top: 180px; left: 30%; display: table-cell;}
+    .webjiintake{
+        margin: auto;
+        font-size: 16px;
+        top: 280px;
+    }
+
+
+    #basicbox{
+        text-align: center;
+        display: inline;
+        grid-column: 1 / span 3;
+        grid-row: 2 / span 1;
+    }
+    .basictake{
+        bottom: 0;
+    }
+    #dobblebox{
+        display: inline;
+        grid-column: 1 / span 3;
+        grid-row: 3 / span 1;
+    }
+    #dobblebox > .hafe-box > .black p{
+        left: 14px;
+        font-size: 13px;
+    }
+    #dobblebox > .hafe-box > .white p{
+        left: 8px;
+        font-size: 13px;
+    }
+    #gooddaybox{
+        display: table;
+        grid-column: 1 / span 3;
+        grid-row: 4 / span 1;
+        text-align: center;
+        justify-content: center;
+    }
+    #gooddaybox article p{font-size: 24px;}
+
+    #hibox > article > h1{font-size: 32px}
+
+
+@media screen and (min-width: 360px) {
+
+    body{ background-color: blanchedalmond;}
+
+
+        main{
+            width: 90vw;
+            height: 100vh;
+            margin: auto 12px;
+        }
+    
+        #hibox{
+            position: relative;
+            display: table;
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+            text-align: center;
+            justify-content: center;
+        }
+        .bangab{top: 180px; left: 35%; display: table-cell;}
+        .webjiintake{
+            margin: auto;
+            font-size: 14px;
+            top: 280px;
+            left: 25%;
+        }
+    
+    
+        #basicbox{
+            text-align: center;
+            display: inline;
+            grid-column: 1 / span 3;
+            grid-row: 2 / span 1;
+        }
+        .basictake{
+            left: 20px;
+            bottom: 20px;
+        }
+        #dobblebox{
+            display: inline;
+            grid-column: 1 / span 3;
+            grid-row: 3 / span 1;
+        }
+        #dobblebox > .hafe-box > .black p{
+            left: 14px;
+            font-size: 13px;
+        }
+        #dobblebox > .hafe-box > .white p{
+            left: -76px;
+            font-size: 13px;
+        }
+        #gooddaybox{
+            display: table;
+            grid-column: 1 / span 3;
+            grid-row: 4 / span 1;
+            text-align: center;
+            justify-content: center;
+        }
+        #gooddaybox article p{font-size: 24px;}
+    
+        #hibox > article > h1{font-size: 32px}
+    
+    }
+}
