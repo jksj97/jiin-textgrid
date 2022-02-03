@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1820px) {
     body{
         overflow-x: hidden;
     }
@@ -55,17 +55,25 @@
         font-size: 16px;
     }
     #dobblebox > .hafe-box > .white{
-        position: relative; 
+        position: relative;
+        left: 50%;
+        width: 50%;
+        height: 19vh;
+        /* background-color: blanchedalmond; */
+        float: left; 
         display: table; 
         vertical-align: middle; 
         justify-content: center;
         text-align: center;
     }
     #dobblebox > .hafe-box > .white p{
+        position: absolute;
+        top: 44%;
+        left: 0;
+        text-align: center;
         display: table-cell;
         /* position: absolute; */
         font-size: 16px;
-        left: 76%;
     }
 
 
@@ -168,8 +176,6 @@
 
 
 @media screen and (min-width: 360px) {
-
-    body{ background-color: blanchedalmond;}
 
 
         main{
