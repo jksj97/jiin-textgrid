@@ -113,4 +113,64 @@
 
     #hibox > article > h1{font-size: 32px}
 
+
+@media screen and (max-width: 360px) {
+
+        main{
+            width: 90vw;
+            height: 100vh;
+            margin: auto 12px;
+        }
+    
+        #hibox{
+            position: relative;
+            display: table;
+            grid-column: 1 / span 3;
+            grid-row: 1 / span 1;
+            text-align: center;
+            justify-content: center;
+        }
+        .bangab{top: 180px; left: 27%; display: table-cell;}
+        .webjiintake{
+            margin: auto;
+            font-size: 14px;
+            top: 280px;
+        }
+    
+    
+        #basicbox{
+            text-align: center;
+            display: inline;
+            grid-column: 1 / span 3;
+            grid-row: 2 / span 1;
+        }
+        .basictake{
+            left: 20px;
+            bottom: 20px;
+        }
+        #dobblebox{
+            display: inline;
+            grid-column: 1 / span 3;
+            grid-row: 3 / span 1;
+        }
+        #dobblebox > .hafe-box > .black p{
+            left: 14px;
+            font-size: 13px;
+        }
+        #dobblebox > .hafe-box > .white p{
+            left: -80px;
+            font-size: 13px;
+        }
+        #gooddaybox{
+            display: table;
+            grid-column: 1 / span 3;
+            grid-row: 4 / span 1;
+            text-align: center;
+            justify-content: center;
+        }
+        #gooddaybox article p{font-size: 24px;}
+    
+        #hibox > article > h1{font-size: 32px}
+    
+    }
 }
