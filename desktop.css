@@ -27,6 +27,41 @@
     }
 }
 
+@media screen and (max-width: 1700px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    #hibox > article > h1{font-size: 80px;}
+
+    .bangab{top: 246px;}
+
+    .webjiintake{
+        font-size: 20px; 
+        top: 400px; 
+        left: 30px;
+    }
+
+    main{
+        margin: 60px 100px;
+    }
+
+    #basicbox article .basictake{
+        font-size: 16px;
+    }
+
+    #dobblebox > .hafe-box > .black p{
+        left: 60px;
+        font-size: 16px;
+    }
+    #dobblebox > .hafe-box > .white p{
+        left: -80px;
+        font-size: 16px;
+    }
+
+
+}
+
 @media screen and (max-width: 1320px) {
     body{
         overflow-x: hidden;
@@ -124,9 +159,9 @@
 
 
 @media screen and (min-width: 360px) {
-    body{
-        overflow-x: hidden;
-    }
+
+    body{ background-color: blanchedalmond;}
+
 
         main{
             width: 90vw;
