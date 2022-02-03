@@ -9,6 +9,8 @@
     padding: 0;
 }
 
+body{overflow-x: hidden; margin: auto; padding: 20px 10px;}
+
 main{
     display: grid;
     grid-template-columns: 827fr 693fr;
@@ -61,53 +63,6 @@ section > article >p{display: inline;}
 /* 두번째 섹션 완료 */
 /* 세번째 섹션 시작 */
 
-
-#dobblebox > .hafe-box{position: relative;}
-
-#dobblebox > .hafe-box > .black{
-    position: absolute;
-    background-color: #151515;
-    height: 19vh;
-    width: 50%;
-    display: table;
-    vertical-align: middle;
-    justify-content: center;
-    text-align: center;
-}
-
-#dobblebox > .hafe-box > .black p{
-    display: table-cell; 
-    font-size: 28px; 
-    font-weight: 700; 
-    color: white;
-    vertical-align: middle;
-    justify-content: center;
-}
-
-
-#dobblebox > .hafe-box > .white{
-    position: absolute;
-    top: 0;
-    right: -80px;
-    height: 19vh;
-    width: 50%;
-    display: table;
-    vertical-align: middle;
-    justify-content: center;
-    text-align: center;
-}
-
-
-#dobblebox > .hafe-box > .white P{
-    position: relative;
-    right: 80px;
-    display: table-cell;
-    vertical-align: middle;
-    justify-content: center;
-    font-size: 28px; 
-    font-weight: 700; 
-    color: black;
-}
 #dobblebox > .hafe-box{position: relative;}
 
 #dobblebox > .hafe-box > .black{
@@ -159,6 +114,6 @@ section > article >p{display: inline;}
 /* 네번째 섹션 시작 */
 
 #gooddaybox{display: table;}
-#gooddaybox article{display: table-cell; text-align: center; vertical-align: middle;}
+#gooddaybox article{display: table-cell; text-align: center; vertical-align: middle; margin-bottom: 60px;}
 
 #gooddaybox article p{font-weight: 700; font-size: 30px;}
