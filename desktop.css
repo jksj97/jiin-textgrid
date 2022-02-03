@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 1820px) {
+@media screen and (max-width: 1252px) {
     body{
         overflow-x: hidden;
     }
@@ -54,23 +54,20 @@
         left: 60px;
         font-size: 16px;
     }
-    #dobblebox > .hafe-box > .white{
-        position: relative;
-        left: 50%;
+
+    .white{
+        left: 44%;
+        display: table;
         width: 50%;
         height: 19vh;
-        /* background-color: blanchedalmond; */
-        float: left; 
-        display: table; 
-        vertical-align: middle; 
-        justify-content: center;
-        text-align: center;
+        /* text-align: center; */
+        /* border: 2px solid red; */
     }
     #dobblebox > .hafe-box > .white p{
-        position: absolute;
-        top: 44%;
-        text-align: center;
         display: table-cell;
+        top: 42%;
+        display: inline-block;
+        position: relative;
         font-size: 16px;
     }
 
